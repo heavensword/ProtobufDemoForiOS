@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5091902819EE06E700E15FD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5091902719EE06E700E15FD8 /* main.m */; };
+		5091902B19EE06E700E15FD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5091902A19EE06E700E15FD8 /* AppDelegate.m */; };
+		5091902E19EE06E700E15FD8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5091902D19EE06E700E15FD8 /* ViewController.m */; };
+		5091903119EE06E700E15FD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5091902F19EE06E700E15FD8 /* Main.storyboard */; };
+		5091903319EE06E700E15FD8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5091903219EE06E700E15FD8 /* Images.xcassets */; };
+		5091903619EE06E700E15FD8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5091903419EE06E700E15FD8 /* LaunchScreen.xib */; };
+		5091904E19EE070500E15FD8 /* Addressbook.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 5091904D19EE070500E15FD8 /* Addressbook.pb.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5091913B19EE151700E15FD8 /* AbstractMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5091910A19EE151700E15FD8 /* AbstractMessage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5091913C19EE151700E15FD8 /* AbstractMessage_Builder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5091910C19EE151700E15FD8 /* AbstractMessage_Builder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5091913D19EE151700E15FD8 /* CodedInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 5091910F19EE151700E15FD8 /* CodedInputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5091913E19EE151700E15FD8 /* CodedOutputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 5091911119EE151700E15FD8 /* CodedOutputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5091913F19EE151700E15FD8 /* ConcreteExtensionField.m in Sources */ = {isa = PBXBuildFile; fileRef = 5091911319EE151700E15FD8 /* ConcreteExtensionField.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5091914019EE151700E15FD8 /* Descriptor.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 5091911519EE151700E15FD8 /* Descriptor.pb.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5091914119EE151700E15FD8 /* ExtendableMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5091911719EE151700E15FD8 /* ExtendableMessage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5091914219EE151700E15FD8 /* ExtendableMessage_Builder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5091911919EE151700E15FD8 /* ExtendableMessage_Builder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5091914319EE151700E15FD8 /* ExtensionRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = 5091911C19EE151700E15FD8 /* ExtensionRegistry.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5091914419EE151700E15FD8 /* Field.m in Sources */ = {isa = PBXBuildFile; fileRef = 5091911E19EE151700E15FD8 /* Field.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5091914519EE151700E15FD8 /* GeneratedMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5091912119EE151700E15FD8 /* GeneratedMessage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5091914619EE151700E15FD8 /* GeneratedMessage_Builder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5091912319EE151700E15FD8 /* GeneratedMessage_Builder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5091914719EE151700E15FD8 /* libprotobuf-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5091912419EE151700E15FD8 /* libprotobuf-ios.a */; };
+		5091914819EE151700E15FD8 /* MutableExtensionRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = 5091912819EE151700E15FD8 /* MutableExtensionRegistry.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5091914919EE151700E15FD8 /* MutableField.m in Sources */ = {isa = PBXBuildFile; fileRef = 5091912A19EE151700E15FD8 /* MutableField.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5091914A19EE151700E15FD8 /* PBArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 5091912C19EE151700E15FD8 /* PBArray.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5091914B19EE151700E15FD8 /* RingBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5091913019EE151700E15FD8 /* RingBuffer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5091914C19EE151700E15FD8 /* TextFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 5091913219EE151700E15FD8 /* TextFormat.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5091914D19EE151700E15FD8 /* UnknownFieldSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5091913419EE151700E15FD8 /* UnknownFieldSet.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5091914E19EE151700E15FD8 /* UnknownFieldSet_Builder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5091913619EE151700E15FD8 /* UnknownFieldSet_Builder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5091914F19EE151700E15FD8 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 5091913819EE151700E15FD8 /* Utilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5091915019EE151700E15FD8 /* WireFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 5091913A19EE151700E15FD8 /* WireFormat.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5091902219EE06E700E15FD8 /* ProtoBufDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProtoBufDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5091902619EE06E700E15FD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5091902719EE06E700E15FD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5091902919EE06E700E15FD8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5091902A19EE06E700E15FD8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5091902C19EE06E700E15FD8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5091902D19EE06E700E15FD8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5091903019EE06E700E15FD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5091903219EE06E700E15FD8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5091903519EE06E700E15FD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5091904019EE06E700E15FD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5091904119EE06E700E15FD8 /* ProtoBufDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProtoBufDemoTests.m; sourceTree = "<group>"; };
+		5091904C19EE070500E15FD8 /* Addressbook.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Addressbook.pb.h; sourceTree = SOURCE_ROOT; };
+		5091904D19EE070500E15FD8 /* Addressbook.pb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Addressbook.pb.m; sourceTree = SOURCE_ROOT; };
+		509190C019EE118D00E15FD8 /* ProtoBufDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ProtoBufDemo-Prefix.pch"; sourceTree = "<group>"; };
+		5091910919EE151700E15FD8 /* AbstractMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractMessage.h; sourceTree = "<group>"; };
+		5091910A19EE151700E15FD8 /* AbstractMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractMessage.m; sourceTree = "<group>"; };
+		5091910B19EE151700E15FD8 /* AbstractMessage_Builder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractMessage_Builder.h; sourceTree = "<group>"; };
+		5091910C19EE151700E15FD8 /* AbstractMessage_Builder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractMessage_Builder.m; sourceTree = "<group>"; };
+		5091910D19EE151700E15FD8 /* Bootstrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bootstrap.h; sourceTree = "<group>"; };
+		5091910E19EE151700E15FD8 /* CodedInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodedInputStream.h; sourceTree = "<group>"; };
+		5091910F19EE151700E15FD8 /* CodedInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodedInputStream.m; sourceTree = "<group>"; };
+		5091911019EE151700E15FD8 /* CodedOutputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodedOutputStream.h; sourceTree = "<group>"; };
+		5091911119EE151700E15FD8 /* CodedOutputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodedOutputStream.m; sourceTree = "<group>"; };
+		5091911219EE151700E15FD8 /* ConcreteExtensionField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteExtensionField.h; sourceTree = "<group>"; };
+		5091911319EE151700E15FD8 /* ConcreteExtensionField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteExtensionField.m; sourceTree = "<group>"; };
+		5091911419EE151700E15FD8 /* Descriptor.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Descriptor.pb.h; sourceTree = "<group>"; };
+		5091911519EE151700E15FD8 /* Descriptor.pb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Descriptor.pb.m; sourceTree = "<group>"; };
+		5091911619EE151700E15FD8 /* ExtendableMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtendableMessage.h; sourceTree = "<group>"; };
+		5091911719EE151700E15FD8 /* ExtendableMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtendableMessage.m; sourceTree = "<group>"; };
+		5091911819EE151700E15FD8 /* ExtendableMessage_Builder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtendableMessage_Builder.h; sourceTree = "<group>"; };
+		5091911919EE151700E15FD8 /* ExtendableMessage_Builder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtendableMessage_Builder.m; sourceTree = "<group>"; };
+		5091911A19EE151700E15FD8 /* ExtensionField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtensionField.h; sourceTree = "<group>"; };
+		5091911B19EE151700E15FD8 /* ExtensionRegistry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtensionRegistry.h; sourceTree = "<group>"; };
+		5091911C19EE151700E15FD8 /* ExtensionRegistry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtensionRegistry.m; sourceTree = "<group>"; };
+		5091911D19EE151700E15FD8 /* Field.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Field.h; sourceTree = "<group>"; };
+		5091911E19EE151700E15FD8 /* Field.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Field.m; sourceTree = "<group>"; };
+		5091911F19EE151700E15FD8 /* ForwardDeclarations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForwardDeclarations.h; sourceTree = "<group>"; };
+		5091912019EE151700E15FD8 /* GeneratedMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneratedMessage.h; sourceTree = "<group>"; };
+		5091912119EE151700E15FD8 /* GeneratedMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedMessage.m; sourceTree = "<group>"; };
+		5091912219EE151700E15FD8 /* GeneratedMessage_Builder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneratedMessage_Builder.h; sourceTree = "<group>"; };
+		5091912319EE151700E15FD8 /* GeneratedMessage_Builder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedMessage_Builder.m; sourceTree = "<group>"; };
+		5091912419EE151700E15FD8 /* libprotobuf-ios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libprotobuf-ios.a"; sourceTree = "<group>"; };
+		5091912519EE151700E15FD8 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		5091912619EE151700E15FD8 /* Message_Builder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message_Builder.h; sourceTree = "<group>"; };
+		5091912719EE151700E15FD8 /* MutableExtensionRegistry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutableExtensionRegistry.h; sourceTree = "<group>"; };
+		5091912819EE151700E15FD8 /* MutableExtensionRegistry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutableExtensionRegistry.m; sourceTree = "<group>"; };
+		5091912919EE151700E15FD8 /* MutableField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutableField.h; sourceTree = "<group>"; };
+		5091912A19EE151700E15FD8 /* MutableField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutableField.m; sourceTree = "<group>"; };
+		5091912B19EE151700E15FD8 /* PBArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBArray.h; sourceTree = "<group>"; };
+		5091912C19EE151700E15FD8 /* PBArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBArray.m; sourceTree = "<group>"; };
+		5091912D19EE151700E15FD8 /* protobuf-ios-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "protobuf-ios-Prefix.pch"; sourceTree = "<group>"; };
+		5091912E19EE151700E15FD8 /* ProtocolBuffers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolBuffers.h; sourceTree = "<group>"; };
+		5091912F19EE151700E15FD8 /* RingBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RingBuffer.h; sourceTree = "<group>"; };
+		5091913019EE151700E15FD8 /* RingBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RingBuffer.m; sourceTree = "<group>"; };
+		5091913119EE151700E15FD8 /* TextFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFormat.h; sourceTree = "<group>"; };
+		5091913219EE151700E15FD8 /* TextFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFormat.m; sourceTree = "<group>"; };
+		5091913319EE151700E15FD8 /* UnknownFieldSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnknownFieldSet.h; sourceTree = "<group>"; };
+		5091913419EE151700E15FD8 /* UnknownFieldSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnknownFieldSet.m; sourceTree = "<group>"; };
+		5091913519EE151700E15FD8 /* UnknownFieldSet_Builder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnknownFieldSet_Builder.h; sourceTree = "<group>"; };
+		5091913619EE151700E15FD8 /* UnknownFieldSet_Builder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnknownFieldSet_Builder.m; sourceTree = "<group>"; };
+		5091913719EE151700E15FD8 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		5091913819EE151700E15FD8 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		5091913919EE151700E15FD8 /* WireFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WireFormat.h; sourceTree = "<group>"; };
+		5091913A19EE151700E15FD8 /* WireFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WireFormat.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5091901F19EE06E700E15FD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5091914719EE151700E15FD8 /* libprotobuf-ios.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5091901919EE06E700E15FD8 = {
+			isa = PBXGroup;
+			children = (
+				509190C019EE118D00E15FD8 /* ProtoBufDemo-Prefix.pch */,
+				5091902419EE06E700E15FD8 /* ProtoBufDemo */,
+				5091903E19EE06E700E15FD8 /* ProtoBufDemoTests */,
+				5091902319EE06E700E15FD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5091902319EE06E700E15FD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5091902219EE06E700E15FD8 /* ProtoBufDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5091902419EE06E700E15FD8 /* ProtoBufDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5091904B19EE06FB00E15FD8 /* protobuf */,
+				5091902919EE06E700E15FD8 /* AppDelegate.h */,
+				5091902A19EE06E700E15FD8 /* AppDelegate.m */,
+				5091902C19EE06E700E15FD8 /* ViewController.h */,
+				5091902D19EE06E700E15FD8 /* ViewController.m */,
+				5091902F19EE06E700E15FD8 /* Main.storyboard */,
+				5091903219EE06E700E15FD8 /* Images.xcassets */,
+				5091903419EE06E700E15FD8 /* LaunchScreen.xib */,
+				5091902519EE06E700E15FD8 /* Supporting Files */,
+			);
+			path = ProtoBufDemo;
+			sourceTree = "<group>";
+		};
+		5091902519EE06E700E15FD8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5091902619EE06E700E15FD8 /* Info.plist */,
+				5091902719EE06E700E15FD8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5091903E19EE06E700E15FD8 /* ProtoBufDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5091904119EE06E700E15FD8 /* ProtoBufDemoTests.m */,
+				5091903F19EE06E700E15FD8 /* Supporting Files */,
+			);
+			path = ProtoBufDemoTests;
+			sourceTree = "<group>";
+		};
+		5091903F19EE06E700E15FD8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5091904019EE06E700E15FD8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5091904B19EE06FB00E15FD8 /* protobuf */ = {
+			isa = PBXGroup;
+			children = (
+				5091910819EE151700E15FD8 /* protobuf-ios */,
+				5091910719EE14BE00E15FD8 /* model */,
+			);
+			name = protobuf;
+			sourceTree = "<group>";
+		};
+		5091910719EE14BE00E15FD8 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				5091904C19EE070500E15FD8 /* Addressbook.pb.h */,
+				5091904D19EE070500E15FD8 /* Addressbook.pb.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		5091910819EE151700E15FD8 /* protobuf-ios */ = {
+			isa = PBXGroup;
+			children = (
+				5091910919EE151700E15FD8 /* AbstractMessage.h */,
+				5091910A19EE151700E15FD8 /* AbstractMessage.m */,
+				5091910B19EE151700E15FD8 /* AbstractMessage_Builder.h */,
+				5091910C19EE151700E15FD8 /* AbstractMessage_Builder.m */,
+				5091910D19EE151700E15FD8 /* Bootstrap.h */,
+				5091910E19EE151700E15FD8 /* CodedInputStream.h */,
+				5091910F19EE151700E15FD8 /* CodedInputStream.m */,
+				5091911019EE151700E15FD8 /* CodedOutputStream.h */,
+				5091911119EE151700E15FD8 /* CodedOutputStream.m */,
+				5091911219EE151700E15FD8 /* ConcreteExtensionField.h */,
+				5091911319EE151700E15FD8 /* ConcreteExtensionField.m */,
+				5091911419EE151700E15FD8 /* Descriptor.pb.h */,
+				5091911519EE151700E15FD8 /* Descriptor.pb.m */,
+				5091911619EE151700E15FD8 /* ExtendableMessage.h */,
+				5091911719EE151700E15FD8 /* ExtendableMessage.m */,
+				5091911819EE151700E15FD8 /* ExtendableMessage_Builder.h */,
+				5091911919EE151700E15FD8 /* ExtendableMessage_Builder.m */,
+				5091911A19EE151700E15FD8 /* ExtensionField.h */,
+				5091911B19EE151700E15FD8 /* ExtensionRegistry.h */,
+				5091911C19EE151700E15FD8 /* ExtensionRegistry.m */,
+				5091911D19EE151700E15FD8 /* Field.h */,
+				5091911E19EE151700E15FD8 /* Field.m */,
+				5091911F19EE151700E15FD8 /* ForwardDeclarations.h */,
+				5091912019EE151700E15FD8 /* GeneratedMessage.h */,
+				5091912119EE151700E15FD8 /* GeneratedMessage.m */,
+				5091912219EE151700E15FD8 /* GeneratedMessage_Builder.h */,
+				5091912319EE151700E15FD8 /* GeneratedMessage_Builder.m */,
+				5091912419EE151700E15FD8 /* libprotobuf-ios.a */,
+				5091912519EE151700E15FD8 /* Message.h */,
+				5091912619EE151700E15FD8 /* Message_Builder.h */,
+				5091912719EE151700E15FD8 /* MutableExtensionRegistry.h */,
+				5091912819EE151700E15FD8 /* MutableExtensionRegistry.m */,
+				5091912919EE151700E15FD8 /* MutableField.h */,
+				5091912A19EE151700E15FD8 /* MutableField.m */,
+				5091912B19EE151700E15FD8 /* PBArray.h */,
+				5091912C19EE151700E15FD8 /* PBArray.m */,
+				5091912D19EE151700E15FD8 /* protobuf-ios-Prefix.pch */,
+				5091912E19EE151700E15FD8 /* ProtocolBuffers.h */,
+				5091912F19EE151700E15FD8 /* RingBuffer.h */,
+				5091913019EE151700E15FD8 /* RingBuffer.m */,
+				5091913119EE151700E15FD8 /* TextFormat.h */,
+				5091913219EE151700E15FD8 /* TextFormat.m */,
+				5091913319EE151700E15FD8 /* UnknownFieldSet.h */,
+				5091913419EE151700E15FD8 /* UnknownFieldSet.m */,
+				5091913519EE151700E15FD8 /* UnknownFieldSet_Builder.h */,
+				5091913619EE151700E15FD8 /* UnknownFieldSet_Builder.m */,
+				5091913719EE151700E15FD8 /* Utilities.h */,
+				5091913819EE151700E15FD8 /* Utilities.m */,
+				5091913919EE151700E15FD8 /* WireFormat.h */,
+				5091913A19EE151700E15FD8 /* WireFormat.m */,
+			);
+			path = "protobuf-ios";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5091902119EE06E700E15FD8 /* ProtoBufDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5091904519EE06E700E15FD8 /* Build configuration list for PBXNativeTarget "ProtoBufDemo" */;
+			buildPhases = (
+				5091901E19EE06E700E15FD8 /* Sources */,
+				5091901F19EE06E700E15FD8 /* Frameworks */,
+				5091902019EE06E700E15FD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProtoBufDemo;
+			productName = ProtoBufDemo;
+			productReference = 5091902219EE06E700E15FD8 /* ProtoBufDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5091901A19EE06E700E15FD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Sword;
+				TargetAttributes = {
+					5091902119EE06E700E15FD8 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 5091901D19EE06E700E15FD8 /* Build configuration list for PBXProject "ProtoBufDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5091901919EE06E700E15FD8;
+			productRefGroup = 5091902319EE06E700E15FD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5091902119EE06E700E15FD8 /* ProtoBufDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5091902019EE06E700E15FD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5091903119EE06E700E15FD8 /* Main.storyboard in Resources */,
+				5091903619EE06E700E15FD8 /* LaunchScreen.xib in Resources */,
+				5091903319EE06E700E15FD8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5091901E19EE06E700E15FD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5091914A19EE151700E15FD8 /* PBArray.m in Sources */,
+				5091914419EE151700E15FD8 /* Field.m in Sources */,
+				5091913B19EE151700E15FD8 /* AbstractMessage.m in Sources */,
+				5091913C19EE151700E15FD8 /* AbstractMessage_Builder.m in Sources */,
+				5091914819EE151700E15FD8 /* MutableExtensionRegistry.m in Sources */,
+				5091914319EE151700E15FD8 /* ExtensionRegistry.m in Sources */,
+				5091914919EE151700E15FD8 /* MutableField.m in Sources */,
+				5091914519EE151700E15FD8 /* GeneratedMessage.m in Sources */,
+				5091914C19EE151700E15FD8 /* TextFormat.m in Sources */,
+				5091913E19EE151700E15FD8 /* CodedOutputStream.m in Sources */,
+				5091904E19EE070500E15FD8 /* Addressbook.pb.m in Sources */,
+				5091913F19EE151700E15FD8 /* ConcreteExtensionField.m in Sources */,
+				5091914219EE151700E15FD8 /* ExtendableMessage_Builder.m in Sources */,
+				5091914119EE151700E15FD8 /* ExtendableMessage.m in Sources */,
+				5091914D19EE151700E15FD8 /* UnknownFieldSet.m in Sources */,
+				5091914B19EE151700E15FD8 /* RingBuffer.m in Sources */,
+				5091913D19EE151700E15FD8 /* CodedInputStream.m in Sources */,
+				5091902E19EE06E700E15FD8 /* ViewController.m in Sources */,
+				5091914F19EE151700E15FD8 /* Utilities.m in Sources */,
+				5091902B19EE06E700E15FD8 /* AppDelegate.m in Sources */,
+				5091902819EE06E700E15FD8 /* main.m in Sources */,
+				5091914E19EE151700E15FD8 /* UnknownFieldSet_Builder.m in Sources */,
+				5091914019EE151700E15FD8 /* Descriptor.pb.m in Sources */,
+				5091915019EE151700E15FD8 /* WireFormat.m in Sources */,
+				5091914619EE151700E15FD8 /* GeneratedMessage_Builder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5091902F19EE06E700E15FD8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5091903019EE06E700E15FD8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5091903419EE06E700E15FD8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5091903519EE06E700E15FD8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5091904319EE06E700E15FD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5091904419EE06E700E15FD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5091904619EE06E700E15FD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "ProtoBufDemo-Prefix.pch";
+				INFOPLIST_FILE = ProtoBufDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ProtoBufDemo/protobuf-ios",
+					"$(PROJECT_DIR)/protobuf-ios",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5091904719EE06E700E15FD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "ProtoBufDemo-Prefix.pch";
+				INFOPLIST_FILE = ProtoBufDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ProtoBufDemo/protobuf-ios",
+					"$(PROJECT_DIR)/protobuf-ios",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5091901D19EE06E700E15FD8 /* Build configuration list for PBXProject "ProtoBufDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5091904319EE06E700E15FD8 /* Debug */,
+				5091904419EE06E700E15FD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5091904519EE06E700E15FD8 /* Build configuration list for PBXNativeTarget "ProtoBufDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5091904619EE06E700E15FD8 /* Debug */,
+				5091904719EE06E700E15FD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5091901A19EE06E700E15FD8 /* Project object */;
+}
